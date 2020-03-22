@@ -9,7 +9,11 @@ https://almabase-github-gaurisankarj.herokuapp.com/:organization?m=<number_of_re
 ## Local, PORT=3000
 
 ```
+// To run server
 npm start
+
+// Test API on local
+http://localhost:3000/:organization?m=<number_of_repositories>&n=<number_of_committees> 
 ```
 
 ### API
