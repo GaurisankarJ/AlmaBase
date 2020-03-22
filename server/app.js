@@ -26,7 +26,7 @@ app.use(logger("combined", {
 app.use("/", route);
 
 // HTTP/1
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     // console.log("(HTTP)Server running on port 3000");
 });
 
